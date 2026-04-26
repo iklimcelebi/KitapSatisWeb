@@ -1,13 +1,5 @@
-# Python cache
 __pycache__/
 *.pyc
-
-# Database
 *.db
 instance/
-
-# Environment
 .env
-
-# OS junk
-.DS_Store
