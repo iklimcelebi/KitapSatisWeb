@@ -2,7 +2,7 @@
 
 Bu proje, Python ve Flask kullanılarak geliştirilmiş basit bir **kitap satış (e-ticaret) web uygulamasıdır**.
 Kullanıcılar kitapları görüntüleyebilir, sepete ekleyebilir ve satın alma işlemi gerçekleştirebilir.
-Admin kullanıcı ise kitap yönetimi ve satış takibini yapabilir.
+Admin kullanıcı ise kitap yönetimi, satış takibini ve satış analizini yapabilir.
 
 ---
 
@@ -29,6 +29,7 @@ Admin kullanıcı ise kitap yönetimi ve satış takibini yapabilir.
 * Kitap silme
 * Satış raporu görüntüleme
 * Sistem sıfırlama (demo veriler yüklenir)
+* Satış grafiğini görüntüleyebilir.
 
 
 ---
@@ -40,6 +41,7 @@ Admin kullanıcı ise kitap yönetimi ve satış takibini yapabilir.
 * SQLite
 * SQLAlchemy
 * HTML / CSS
+* Jinja2 Template Engine
 
 ---
 
@@ -56,7 +58,8 @@ proje312/
 │   ├── register.html
 │   ├── cart.html
 │   ├── admin.html
-│   └── add_book.html
+|   ├── add_book.html
+│   └── sales_chart.html
 │
 ├── static/
 │   ├── css/
@@ -75,7 +78,7 @@ proje312/
 
 ```
 Kullanıcı adı: admin
-Şifre: 1234admin
+Şifre: 1234admin+
 ```
 
 ---
